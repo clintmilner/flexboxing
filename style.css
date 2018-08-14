@@ -215,12 +215,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     display: flex;
     border: 10px solid mistyrose;
     height: 90vh;
-    flex-wrap: wrap;
-    align-content: center;
-
-    justify-content: center;
+    align-items: flex-start;
 }
 
 .box {
-    width: 33.333333%;
+    width: 311px;
 }
+.box2 {
+    padding-bottom: 100px;
+    align-self: flex-end;
+}
+.box7 { padding-bottom: 311px; }
