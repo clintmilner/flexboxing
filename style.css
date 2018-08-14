@@ -214,7 +214,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .container {
     display: flex;
     border: 10px solid goldenrod;
-    min-height: 100vh;
+    height: 100vh;
 
     flex-direction: row; /* default is row : row, row-reverse, column, column-reverse */
+    flex-wrap: wrap; /* default is nowrap : nowrap, wrap, wrap-reverse */
+}
+
+.box {
+    /*width: 300px; !* flexbox will try to honor this value, but ultimately it will make things look nice if value is too much *!*/
+    width: 33.333333%;
+    /*margin: 10px; !* margin is not part of the box model and will still break flexbox, but padding and border are okay *!*/
 }
