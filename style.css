@@ -214,7 +214,13 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .container {
     display: flex;
     border: 10px solid mistyrose;
-    align-items: baseline;
-    height: 70vh;
-    flex-direction: column;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: center;
+
+    justify-content: center;
+}
+
+.box {
+    width: 33.333333%;
 }
