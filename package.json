@@ -1,0 +1,26 @@
+{
+  "name": "flexboxing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-script-os",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Firefox'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "run-script-os": "^1.0.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintmilner/flexboxing.git"
+  },
+  "author": "Clint Milner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintmilner/flexboxing/issues"
+  },
+  "homepage": "https://github.com/clintmilner/flexboxing#readme"
+}
